@@ -15,7 +15,7 @@
 # Install @apollo/server package
 npm i @apollo/server
 
-# Install mongodb package
+# Install body-parser package
 npm i body-parser
 
 # Install cors package

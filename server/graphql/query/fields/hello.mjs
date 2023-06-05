@@ -12,7 +12,7 @@ const hello = {
             type: new GraphQLNonNull(GraphQLInt)
         }
     },
-    resolve(source,args,ctx) {
+    resolve(parent, args) {
         const res = `Data: ${args.id}`
 
         return res;
